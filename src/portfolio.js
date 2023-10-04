@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 import { SiJavascript, SiChatwoot, SiExpress, SiNestjs, SiNodedotjs, SiTwilio } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { MdDeveloperMode } from 'react-icons/md';
-import { BiLogoPostgresql, BiLogoFirebase, BiLogoMongodb, BiLogoAws } from 'react-icons/bi';
+import { BiLogoPostgresql, BiLogoGraphql, BiLogoFirebase, BiLogoMongodb, BiLogoAws } from 'react-icons/bi';
 import { FaCss3, FaReact, FaSass, FaStripe } from 'react-icons/fa';
 import { AiOutlineHtml5 } from 'react-icons/ai';
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -32,7 +32,7 @@ const greeting = {
     "A dedicated Full Stack Software Developer 🚀 with a strong track record in constructing the infrastructure for both Web and Mobile Applications. My expertise encompasses a wide array of technologies, including JavaScript, React, React Native, Next.JS, Node JS, Nest.JS, GraphQL, Firebase, TypeScript, MongoDB, AWS, and various other cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vtKDXqHQPg6ew-s2FvNR2OO3qaWPjbyY/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/16XwyE5ciFXIDnkQRarjwfGqZd4gFRoWN/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -111,8 +111,8 @@ https://fontawesome.com/icons?d=gallery */
       icon: <SiNestjs color="gray" size={50} />
     },
     {
-      skillName: "Comet Chat",
-      icon: <SiChatwoot color="gray" size={50} />
+      skillName: "Firebase",
+      icon: <BiLogoFirebase color="gray" size={50} />
     },
     {
       skillName: "Postgress SQL",
@@ -123,12 +123,16 @@ https://fontawesome.com/icons?d=gallery */
       icon: <BiLogoMongodb color="gray" size={50} />
     },
     {
+      skillName: "Graph QL",
+      icon: <BiLogoGraphql color="gray" size={50} />
+    },
+    {
       skillName: "AWS",
       icon: <BiLogoAws color="gray" size={50} />
     },
     {
-      skillName: "Firebase",
-      icon: <BiLogoFirebase color="gray" size={50} />
+      skillName: "Comet Chat",
+      icon: <SiChatwoot color="gray" size={50} />
     },
     {
       skillName: "Stripe",
@@ -315,7 +319,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Aptech (ACCP PRO)",
+      title: "ACCP (Aptech Certified Computer Program)",
       subtitle:
         "Accomplished the ACCP Pro certification program from Aptech, focusing on application infrastructure, deployment, and programming",
       image: require("./assets/images/aptech.png"),
@@ -344,7 +348,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "SMIT (Saylani Mass Institute of Technology)",
+      title: "SMIT (Web & Mobile App Developement)",
       subtitle: "Successfully completed the certification in Web and Mobile Application development, utilizing cutting-edge technologies, at SMIT",
       image: require("./assets/images/smit.webp"),
       imageAlt: "SMIT Logo",
