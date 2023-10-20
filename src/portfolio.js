@@ -32,7 +32,7 @@ const greeting = {
     "A dedicated Full Stack Software Developer 🚀 with a strong track record in constructing the infrastructure for both Web and Mobile Applications. My expertise encompasses a wide array of technologies, including JavaScript, React, React Native, Next.JS, Node JS, Nest.JS, GraphQL, Firebase, TypeScript, MongoDB, AWS, and various other cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1obaPoWcmO3ZaHk_Myx3EcHw83hNM2pik/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/10NDXdvKfl4vYwbjiVPVa7819jZBqh1p5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
