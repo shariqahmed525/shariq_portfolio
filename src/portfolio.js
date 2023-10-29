@@ -3,12 +3,25 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import { SiJavascript, SiChatwoot, SiExpress, SiNestjs, SiNodedotjs, SiTwilio } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
-import { MdDeveloperMode } from 'react-icons/md';
-import { BiLogoPostgresql, BiLogoGraphql, BiLogoFirebase, BiLogoMongodb, BiLogoAws } from 'react-icons/bi';
-import { FaCss3, FaReact, FaSass, FaStripe } from 'react-icons/fa';
-import { AiOutlineHtml5 } from 'react-icons/ai';
+import {
+  SiJavascript,
+  SiChatwoot,
+  SiExpress,
+  SiNestjs,
+  SiNodedotjs,
+  SiTwilio
+} from "react-icons/si";
+import {TbBrandNextjs} from "react-icons/tb";
+import {MdDeveloperMode} from "react-icons/md";
+import {
+  BiLogoPostgresql,
+  BiLogoGraphql,
+  BiLogoFirebase,
+  BiLogoMongodb,
+  BiLogoAws
+} from "react-icons/bi";
+import {FaCss3, FaReact, FaSass, FaStripe} from "react-icons/fa";
+import {AiOutlineHtml5} from "react-icons/ai";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -44,7 +57,7 @@ const socialMediaLinks = {
   gmail: "shariq.ahmed525@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
+  medium: "https://medium.com/@shariq.ahmed525",
   stackoverflow: "https://stackoverflow.com/users/10648973/shariq-ahmed",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -55,12 +68,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "An enthusiastic Full Stack Developer with a strong passion for exploring diverse technology stacks",
+  subTitle:
+    "An enthusiastic Full Stack Developer with a strong passion for exploring diverse technology stacks",
   skills: [
     emoji(
       "⚡ Create exceptionally interactive front-end user interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications (PWAs) in both standard and Single Page Application (SPA) stacks."),
+    emoji(
+      "⚡ Progressive Web Applications (PWAs) in both standard and Single Page Application (SPA) stacks."
+    ),
     emoji(
       "⚡ Seamless integration of third-party services including Firebase, AWS, Twilio, Stripe, Comet Chat, and many more."
     )
@@ -197,7 +213,7 @@ const techStack = {
     {
       Stack: "Infrastructure",
       progressPercentage: "40%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -212,7 +228,7 @@ const workExperiences = {
       company: "Systems Avenue",
       companylogo: require("./assets/images/systemsAvenue.webp"),
       date: "March 2019 – November 2019",
-      desc: "At Systems Avenue, my main responsibility was on mobile development particularly in utilizing Firebase services to complete tasks effectively.",
+      desc: "At Systems Avenue, my main responsibility was on mobile development particularly in utilizing Firebase services to complete tasks effectively."
     },
     {
       role: "Full Stack Developer",
@@ -243,12 +259,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Portfolios",
-  subtitle: "Contributions to Tech Development for Various Startups and Companies",
+  subtitle:
+    "Contributions to Tech Development for Various Startups and Companies",
   projects: [
     {
       image: require("./assets/images/dirideal-logo.jpg"),
       projectName: "Dirideal",
-      projectDesc: "It's a mobile app, A Second-hand Marketplace: The Leading Platform in Algeria for Effortless Selling, Safe Buying, and Promoting Sustainable Fashion Choices by Rejecting Fast Fashion.",
+      projectDesc:
+        "It's a mobile app, A Second-hand Marketplace: The Leading Platform in Algeria for Effortless Selling, Safe Buying, and Promoting Sustainable Fashion Choices by Rejecting Fast Fashion.",
       footerLink: [
         {
           name: "View application",
@@ -259,7 +277,8 @@ const bigProjects = {
     {
       image: require("./assets/images/moertsch.webp"),
       projectName: "Moertsch",
-      projectDesc: "It's a mobile app, Moertsch is global nightlife party planner. Discover events, create and share them with friends, and enjoy features like a personal calendar preview",
+      projectDesc:
+        "It's a mobile app, Moertsch is global nightlife party planner. Discover events, create and share them with friends, and enjoy features like a personal calendar preview",
       footerLink: [
         {
           name: "View application",
@@ -271,7 +290,8 @@ const bigProjects = {
     {
       image: require("./assets/images/dailycart-logo.jpg"),
       projectName: "Daily Cart",
-      projectDesc: "It's a mobile app, Daily Cart is subscription-based e-grocery shopping app. Get all your daily essentials in one place, from breakfast to household items, delivered to your local area.",
+      projectDesc:
+        "It's a mobile app, Daily Cart is subscription-based e-grocery shopping app. Get all your daily essentials in one place, from breakfast to household items, delivered to your local area.",
       footerLink: [
         {
           name: "View application",
@@ -283,7 +303,8 @@ const bigProjects = {
     {
       image: require("./assets/images/iagility.jpg"),
       projectName: "iAgility",
-      projectDesc: "It's a web app, iAgility is an online consulting platform for future-proofing businesses. We connect businesses and independent talent, keeping them ahead of the curve..",
+      projectDesc:
+        "It's a web app, iAgility is an online consulting platform for future-proofing businesses. We connect businesses and independent talent, keeping them ahead of the curve..",
       footerLink: [
         {
           name: "View website",
@@ -291,7 +312,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -315,7 +336,7 @@ const achievementSection = {
         {
           name: "Certificate",
           url: "https://graduation.udacity.com/confirm/YDYPUAYY"
-        },
+        }
       ]
     },
     {
@@ -333,12 +354,13 @@ const achievementSection = {
     },
     {
       title: "PWA (Progressive Web App)",
-      subtitle: "Accomplished the certification in PWA Web App Development, including expertise in Web push notification, from SMIT.",
+      subtitle:
+        "Accomplished the certification in PWA Web App Development, including expertise in Web push notification, from SMIT.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
         {
-          name: "Certification", 
+          name: "Certification",
           url: "https://drive.google.com/file/d/1Nh1GNVfMOe_Fs7mAzAongjOguEJZTmrJ/view?usp=sharing"
         },
         {
@@ -349,12 +371,13 @@ const achievementSection = {
     },
     {
       title: "SMIT (Web & Mobile App Developement)",
-      subtitle: "Successfully completed the certification in Web and Mobile Application development, utilizing cutting-edge technologies, at SMIT",
+      subtitle:
+        "Successfully completed the certification in Web and Mobile Application development, utilizing cutting-edge technologies, at SMIT",
       image: require("./assets/images/smit.webp"),
       imageAlt: "SMIT Logo",
       footerLink: [
         {
-          name: "Certification", 
+          name: "Certification",
           url: "https://drive.google.com/file/d/1iS5DLdigUaDo65ioujI4ymIZITS4Gp4O/view?usp=sharing"
         }
       ]
@@ -368,23 +391,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love writing and teaching others what I've learned",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    // {
+    //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+    //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+    //   description:
+    //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+    // },
+    // {
+    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   title: "Why REACT is The Best?",
+    //   description:
+    //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -412,8 +435,7 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-  ],
+  podcast: [],
   display: false // Set false to hide this section, defaults to true
 };
 
