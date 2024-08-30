@@ -50,9 +50,9 @@ function Header() {
             </li>
           )}
           {/* {viewOpenSource && ( */}
-            <li>
-              <a href="#projects">Portfolios</a>
-            </li>
+          <li>
+            <a href="#projects">Portfolios</a>
+          </li>
           {/* )} */}
           {viewAchievement && (
             <li>
