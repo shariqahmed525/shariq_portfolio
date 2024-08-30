@@ -238,11 +238,11 @@ const workExperiences = {
       desc: "In Daily Cart, my primary focus is on mobile development, but I also handle backend tasks when necessary to provide assistance."
     },
     {
-      role: "CTO",
+      role: "Senior Software Developer",
       company: "Dirideal",
       companylogo: require("./assets/images/dirideal.jpeg"),
       date: "June 2021 – June 2023",
-      desc: "As a CTO, my primary responsibility was typically to provide technical leadership, set the technology strategy, and oversee the overall technology direction of the company. While have expertise in mobile application development I was working on mobile size, my also role was managing and guiding teams of developers."
+      desc: "As a Senior Software Developer, my primary responsibility was typically to provide technical leadership, set the technology strategy, and oversee the overall technology direction of the company. While have expertise in mobile application development I was working on mobile size, my also role was managing and guiding teams of developers."
     }
   ]
 };
